@@ -33,7 +33,8 @@ Recipe AI is a React-based application that utilizes the Hugging Face API to gen
 
 ## How to Use
 1. Create a Hugging Face Mistral AI API key.
-2. Replace the API key in the code.
+2. Replace it in the `ai.js` code.
+![API](https://github.com/user-attachments/assets/952cf22a-7f17-4ed5-a704-eda35c7379fe)
 3. Provide a list of ingredients (at least four).
 4. Generate a recipe based on the provided ingredients.
 
@@ -48,6 +49,9 @@ yarn dev
 ```
 
 The application will be available at `http://localhost:3000/` (or as specified in your terminal output).
+
+## Preview
+https://github.com/user-attachments/assets/1c0cac0c-c06a-4aee-a497-07c6ccdc1555
 
 ## Technologies Used
 - React.js
