@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes entering{
+  from{
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes entering2{
+  from{ 
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fading {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+
+  }
+}
+
+
+
+body{
+  background-color: whitesmoke;
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+  animation: entering 0.5s;
+  margin: 0;
+  overflow-y: scroll;
+  padding-bottom: 35px;
+}
+::-webkit-scrollbar{
+  width: 0;
+  background: transparent;
+  
+}
+
+
+button{
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+.ip{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  
+}
+
+.ipList{
+  width: 400px;
+  height: 4cap;
+  border: none;
+  background-color: gainsboro;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.ipList:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+.btn-list{
+  color: white;
+  font-weight: 600;
+  width: 125px;
+  height: 40px;
+  border: none;
+  background-color: rgb(37, 223, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-list:hover{
+  background-color: rgb(35, 207, 0);
+}
+.btn-list:active{
+  background-color: rgb(37, 223, 0);
+  transform: scale(0.95);
+}
+.btn-list img{
+  height: 22px;
+  margin-right: 8px;
+}
+
+
+.reset{
+  border: none;
+  width: 135px;
+  height: 40px;
+  color: White;
+  background-color: rgb(130, 198, 221);
+  outline: none;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset:hover{
+  background-color: rgb(111, 171, 191);
+}
+.reset:active{
+  background-color: rgb(130, 198, 221);
+  transform: scale(0.95);
+}
+
+.reset img{
+  margin-right: 5px;
+  height: 22px;
+}
+
+
+.form-list{
+  display: flex;
+  justify-content: center;
+}
+.listing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+ul{
+  width: 600px;
+}
+
+li{
+  font-size: medium;
+  margin-bottom: 10px;
+  animation: entering .25s;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 10px gainsboro;
+  gap: 10px;
+}
+header img{
+  height: 40px;
+}
+
+header h1{
+  font-weight: 500;
+  font-size: larger;
+}
+
+.get-recipe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #efe9cf;
+  padding: 10px 28px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 8px 8px 10px gainsboro;
+  animation: entering 0.5s;
+  
+}
+
+.get-recipe-container h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.get-recipe-container button {
+  border: none;
+  background: #D17557;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FAFAF8;
+  font-weight: 600;
+  width: 140px; 
+  height: 34px;
+  font-size: 0.875rem;
+  z-index: 1;
+  position: relative;
+}
+
+.get-recipe-container button:hover {
+  background: #bc6a4e;
+}
+.get-recipe-container button:active {
+  background: #D17557;
+  transform: scale(0.95);
+  
+}
+
+
+
+
+h6{
+  font-size: larger;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  animation: entering2 .5s;
+}
+
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0 20px 0 20px;
+  padding: 5px 30px ;
+  border-radius: 10px;
+  background-color: rgba(234, 234, 234, 0.779);
+  box-shadow: 8px 8px 10px gainsboro;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+  margin-bottom: 8px;
+}
+
+.preloader-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  top: 0px;
+  border-radius: 3px;
+  width: 140px; 
+  height: 34px;
+  /* outline: 0.2px solid black; */
+  box-shadow: 2px 2px 5px rgb(164, 164, 164);
+  background: white url(./assets/preloaderBook.gif) no-repeat center center;
+  background-size: contain;
+  animation: fading 0.25s ease-out;
+}
+
+@media screen and (max-width: 637px) {
+  .ipList {
+    width: 200px;
+  }
+}
+
+
