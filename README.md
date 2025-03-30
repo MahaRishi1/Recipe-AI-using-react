@@ -62,6 +62,6 @@ Feel free to fork the repository and submit a pull request with improvements!
 This project is licensed under the MIT License.
 
 ## Contact
-For any issues or suggestions, feel free to reach out via GitHub Issues or contact `your-email@example.com`.
+For any issues or suggestions, feel free to reach out via GitHub Issues or contact `maharishibx@gmail.com`.
 
 Happy cooking! 🍽️
